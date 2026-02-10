@@ -28,6 +28,12 @@ public class oops_introduction {
 
         // student1.changeName("Dhanush Nayak");
         // student1.greeting();
+
+        Student one = new Student();
+        Student two=one;
+
+        one.name="Something...";
+        System.out.println(two.name);
     }
     // Creating class
 }
